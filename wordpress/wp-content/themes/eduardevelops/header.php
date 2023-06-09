@@ -43,6 +43,7 @@ session_start();
 
 <body>
 
+    <?php wp_nav_menu() ?>
     <div class="sidebar col-4 d-none d-lg-block">
         <div class="profile d-flex justify-content-center">
             <img src="./img/profile-pic.JPG" alt="" class="img-fluid profile-pic">
@@ -55,7 +56,7 @@ session_start();
             <a class="item3" href="#competences">Compétences</a>
             <a class="item4" href="#portfolio">Portfolio</a>
             <a class="item5" href="#projets">Projets</a>
-            <!-- <a href="">Code Challenges</a> -->
+            <a href="">Code Challenges</a>
             <a class="item6" href="#blog">Blog</a>
             <a class="item7" href="#contact">Contact</a>
         </div>
